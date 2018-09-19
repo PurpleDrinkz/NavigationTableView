@@ -14,6 +14,8 @@
 		3D0E63B621529EAD00C3557C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E63B421529EAD00C3557C /* LaunchScreen.storyboard */; };
 		3D0E63C121529EAD00C3557C /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63C021529EAD00C3557C /* NavigationControllerTests.swift */; };
 		3D0E63CC21529EAD00C3557C /* NavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63CB21529EAD00C3557C /* NavigationControllerUITests.swift */; };
+		3D0E63DD2152A62700C3557C /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63DC2152A62700C3557C /* Materia.swift */; };
+		3D0E63DF2152AC6D00C3557C /* CeldaMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63DE2152AC6D00C3557C /* CeldaMateria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D0E63C721529EAD00C3557C /* NavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0E63CB21529EAD00C3557C /* NavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerUITests.swift; sourceTree = "<group>"; };
 		3D0E63CD21529EAD00C3557C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0E63DC2152A62700C3557C /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+		3D0E63DE2152AC6D00C3557C /* CeldaMateria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,11 @@
 		3D0E63AA21529EAA00C3557C /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				3D0E63DB2152A4D000C3557C /* ViewControllers */,
+				3D0E63DA2152A4C800C3557C /* Views */,
+				3D0E63D92152A4B400C3557C /* Models */,
 				3D0E63AB21529EAA00C3557C /* AppDelegate.swift */,
-				3D0E63AD21529EAA00C3557C /* ViewController.swift */,
-				3D0E63AF21529EAA00C3557C /* Main.storyboard */,
 				3D0E63B221529EAD00C3557C /* Assets.xcassets */,
-				3D0E63B421529EAD00C3557C /* LaunchScreen.storyboard */,
 				3D0E63B721529EAD00C3557C /* Info.plist */,
 			);
 			path = NavigationController;
@@ -123,6 +127,32 @@
 				3D0E63CD21529EAD00C3557C /* Info.plist */,
 			);
 			path = NavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		3D0E63D92152A4B400C3557C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E63DC2152A62700C3557C /* Materia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D0E63DA2152A4C800C3557C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E63AF21529EAA00C3557C /* Main.storyboard */,
+				3D0E63B421529EAD00C3557C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D0E63DB2152A4D000C3557C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E63AD21529EAA00C3557C /* ViewController.swift */,
+				3D0E63DE2152AC6D00C3557C /* CeldaMateria.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0E63AE21529EAA00C3557C /* ViewController.swift in Sources */,
+				3D0E63DF2152AC6D00C3557C /* CeldaMateria.swift in Sources */,
 				3D0E63AC21529EAA00C3557C /* AppDelegate.swift in Sources */,
+				3D0E63DD2152A62700C3557C /* Materia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
