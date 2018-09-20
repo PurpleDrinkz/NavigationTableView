@@ -16,6 +16,7 @@
 		3D0E63CC21529EAD00C3557C /* NavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63CB21529EAD00C3557C /* NavigationControllerUITests.swift */; };
 		3D0E63DD2152A62700C3557C /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63DC2152A62700C3557C /* Materia.swift */; };
 		3D0E63DF2152AC6D00C3557C /* CeldaMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E63DE2152AC6D00C3557C /* CeldaMateria.swift */; };
+		3DD0FCDD21542AF600F522E9 /* DetalleMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0FCDC21542AF600F522E9 /* DetalleMateriaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3D0E63CD21529EAD00C3557C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D0E63DC2152A62700C3557C /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
 		3D0E63DE2152AC6D00C3557C /* CeldaMateria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateria.swift; sourceTree = "<group>"; };
+		3DD0FCDC21542AF600F522E9 /* DetalleMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleMateriaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				3D0E63AD21529EAA00C3557C /* ViewController.swift */,
 				3D0E63DE2152AC6D00C3557C /* CeldaMateria.swift */,
+				3DD0FCDC21542AF600F522E9 /* DetalleMateriaController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				3D0E63AE21529EAA00C3557C /* ViewController.swift in Sources */,
 				3D0E63DF2152AC6D00C3557C /* CeldaMateria.swift in Sources */,
+				3DD0FCDD21542AF600F522E9 /* DetalleMateriaController.swift in Sources */,
 				3D0E63AC21529EAA00C3557C /* AppDelegate.swift in Sources */,
 				3D0E63DD2152A62700C3557C /* Materia.swift in Sources */,
 			);

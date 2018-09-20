@@ -49,6 +49,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         materias[3].calificacionPrimerParcial = 7
     }
 
+    @IBOutlet weak var tbMaterias: UITableView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToDetalleMateria"{
+            let destino = segue.destination as? DetalleMateriaController
+            
+            destino?.materia =
+            materias[(tbMaterias.indexPathForSelectedRow?.row)!]
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
